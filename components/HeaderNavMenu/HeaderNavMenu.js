@@ -5,9 +5,7 @@ import { HeaderNavMenuWrap, MenuItem } from './HeaderNavMenu.styled'
 import HeaderNavMenuItem from './HeaderNavMenuItem'
 // import PropTypes from 'prop-types'
 
-function HeaderNavMenu({pages}) {
-    console.log(pages);
-  
+function HeaderNavMenu({ pages }) {
     return (
             <nav>
             <HeaderNavMenuWrap>
