@@ -1,0 +1,38 @@
+.section__intro {
+  position: relative;
+  margin-top: 6.25rem;
+  background-color: #141414;
+  overflow: hidden;
+}
+
+.intro__wrap {
+  display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 5rem;
+}
+
+.intro__content {
+    display: flex;
+    flex-direction: column;
+    gap: 3.25rem;
+    max-width: 57.5rem;
+    width: 50%;
+    background-color: #141414;
+}
+
+.intro__image {
+    position: relative;
+    width: 50%;
+}
+
+.intro__image img {
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  width: 57.5rem;
+  object-fit: contain;
+  background-color: #1A1A1A;
+  background: linear-gradient(238.21deg, #2A213F 8.76%, #1A1A1A 50.09%);
+}

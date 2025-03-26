@@ -1,23 +1,18 @@
+'use client'
 import Link from 'next/link'
 import { usePathname } from 'next/navigation'
-import React from 'react'
-import { MenuItem, MenuLink } from './HeaderNavMenu.styled'
-// import PropTypes from 'prop-types'
+import styles from './HeaderNavMenu.module.css'
 
 function HeaderNavMenuItem({label, href }) {
-    const path = usePathname()
-    const isActive = href === `${path}`
+  const path = usePathname()
+  const isActive = href === `${path}`
   
-    return (
-    <MenuItem>
-        <MenuLink href={href} isActive={isActive}>{label}</MenuLink>
-    </MenuItem>
+  return (
+      <li>
+        <Link href={href} className={`${styles.menu__link} ${isActive ? styles.active : ''}`}>{label}</Link>
+      </li>
   )
 }
-
-// HeaderNavMenuItem.propTypes = {
-
-// }
 
 export default HeaderNavMenuItem
 

@@ -1,11 +1,11 @@
 
 
 import Image from 'next/image'
-import React from 'react'
-import { HeaderWrapper, HeaderInner, HeaderLogoLink, MenuItem } from './Header.styled'
+import styles from './Header.module.css'
 import logo from '../../public/logo.png'
-import { SectionContainer } from '@/ui'
+import { Button, SectionContainer } from '@/ui'
 import { HeaderNavMenu } from '@/components'
+import Link from 'next/link'
 
 const pages = [
   {
@@ -29,18 +29,17 @@ const pages = [
 
 function Header() {
   return (
-      <HeaderWrapper>
-          <SectionContainer>
-            <HeaderInner>
-                <HeaderLogoLink href='/'>
-                    <Image src={logo} alt='Logo Estatein' />
-          </HeaderLogoLink>
-          <HeaderNavMenu pages={pages}/>
-
-                <button>Contact Us</button>
-            </HeaderInner>
-          </SectionContainer>
-      </HeaderWrapper>
+      <header className={styles.header}>
+        <SectionContainer>
+          <div className={styles.header__inner}>
+            <Link href='/'>
+              <Image src={logo} alt='Logo Estatein' />
+            </Link>
+            <HeaderNavMenu pages={pages}/>
+            <Button>Contact Us</Button>
+          </div>
+        </SectionContainer>
+      </header>
   )
 }
 

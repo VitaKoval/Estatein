@@ -1,0 +1,50 @@
+.button {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #FFFFFF;
+    border: 1px solid;
+    border-radius: 10px;
+    transition: 0.3s;
+   
+}
+
+/* size */
+.button.large {
+    padding: 18px 24px;
+    height: 63px;
+    font-size: 18px;
+}
+
+.button.medium {
+    padding: 14px 24px;
+    height: 55px;
+    font-size: 18px;
+}
+
+.button.small {
+    padding: 14px 20px;
+    height: 49px;
+    font-size: 14px;
+}
+
+/* variant */
+.button.dark {
+    border-color: #262626;
+    background-color: #141414;
+}
+
+.button.dark:hover {
+    background-color: #262626;
+}
+
+.button.accent {
+    border-color: #703BF7;
+    background-color: #703BF7;
+}
+
+.button.accent:hover {
+    background-color: transparent;
+}
+

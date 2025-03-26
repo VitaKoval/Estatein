@@ -1,0 +1,57 @@
+.menu {
+
+}
+
+.menu__wrap {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.menu__link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 14px 24px;
+    border: 1px solid;
+    border-color: transparent;
+    border-radius: 0.625rem;
+    background-color: transparent;
+    transition: 0.3s;
+}
+
+.menu__link:hover {
+    cursor: pointer;
+    border-color: #262626;
+    background-color: #141414;
+}
+
+.menu__link.active {
+    border-color: #262626;
+    background-color: #141414;
+}
+
+
+
+/* export const MenuItem = styled.li(
+    css({
+       
+    })
+)
+
+export const MenuLink = styled(Link)(
+    ({isActive}) =>
+    css({
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+        px: '24px',
+        py: '14px',
+        border: '1px solid',
+        borderColor: isActive ? '#262626' : 'transparent',
+        borderRadius: '0.625rem',
+        bg: isActive ? '#141414' : 'transparent',
+        
+        fontSize: '18px',
+    })
+) */
+

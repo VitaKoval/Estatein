@@ -1,17 +1,11 @@
-'use client'
-import styled from "styled-components";
-import css from '@styled-system/css'
-import { variant } from 'styled-system'
+import styles from "./SectionContainer.module.css";
 
- const SectionContainer = styled.div(
-    css({
-        display: 'flex',
-        flexDirection: 'column',
-        px: '1rem',
-        mx: 'auto',
-        width: '100%',
-        maxWidth: '99.75rem',
-    })
- )
+function SectionContainer({children}) {
+  return (
+    <div className={styles.container}>
+      {children}
+    </div>
+  )
+}
 
- export default SectionContainer
+export default SectionContainer

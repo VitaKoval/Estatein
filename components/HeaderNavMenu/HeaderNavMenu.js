@@ -1,26 +1,18 @@
-'use client'
-import Link from 'next/link'
-import React from 'react'
-import { HeaderNavMenuWrap, MenuItem } from './HeaderNavMenu.styled'
 import HeaderNavMenuItem from './HeaderNavMenuItem'
-// import PropTypes from 'prop-types'
+import styles from './HeaderNavMenu.module.css'
 
 function HeaderNavMenu({ pages }) {
     return (
             <nav>
-            <HeaderNavMenuWrap>
+            <ul className={styles.menu__wrap}>
                 {pages.map(({...pageProps}) => (
                     <HeaderNavMenuItem key={pageProps.label} {...pageProps}/>
                 ))}
                    
-            </HeaderNavMenuWrap>
+            </ul>
             </nav>
   )
 }
-
-// HeaderNavMenu.propTypes = {
-
-// }
 
 export default HeaderNavMenu
 
