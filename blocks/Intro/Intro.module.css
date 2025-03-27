@@ -36,11 +36,6 @@
     gap: 1.25rem;
 }
 
-.intro__content .content__statistic {
-    display: flex;
-    gap: 1.25rem;
-}
-
 .intro__image {
     position: relative;
     width: 50%;

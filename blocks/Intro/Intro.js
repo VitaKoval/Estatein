@@ -1,25 +1,8 @@
+import { StatisticGeneral } from "@/components"
 import { Button, SectionContainer, StatisticCard } from "@/ui"
 import Image from "next/image"
 import introImage from '../../assets/intro_home.png'
 import styles from './Intro.module.css'
-
-const statisticHomePage = [
-  {
-  id: 1,
-  count: '200+',
-  label: 'Happy Customers'
-  },
-  {
-  id: 2,
-  count: '10k+',
-  label: 'Properties For Clients'
-  },
-  {
-  id: 3,
-  count: '16+',
-  label: 'Years of Experience'
-  }
-]
 
 function Intro() {
   return (
@@ -35,9 +18,7 @@ function Intro() {
                 <Button >Learn More</Button>
                 <Button variant="accent">Browse Properties</Button>
               </div>
-              <div className={styles.content__statistic}>
-                {statisticHomePage.map((item) => <StatisticCard key={item.id} {...item}/>)}
-              </div>
+              <StatisticGeneral/>
             </div>
             <div className={styles.intro__image}>
                 <Image src={introImage} alt='Modern glass building' />
