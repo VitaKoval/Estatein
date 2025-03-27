@@ -1,1 +1,1 @@
-export {default} from './StatisticGeneral'
+export { default } from './StatisticGeneral'

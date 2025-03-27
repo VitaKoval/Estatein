@@ -6,7 +6,7 @@
         "react/prop-types": "warn"
     },
     "extends": [
-        "eslint:recommended",
+        "eslint:prettier/recommended",
         "next/core-web-vitals",
         "plugin:storybook/recommended"
     ]

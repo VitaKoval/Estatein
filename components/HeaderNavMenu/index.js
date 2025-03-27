@@ -1,1 +1,1 @@
-export {default} from './HeaderNavMenu'
+export { default } from './HeaderNavMenu'

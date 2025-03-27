@@ -1,36 +1,33 @@
 .menu {
-
 }
 
 .menu__wrap {
-    display: flex;
-    gap: 0.5rem;
+  display: flex;
+  gap: 0.5rem;
 }
 
 .menu__link {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 14px 24px;
-    border: 1px solid;
-    border-color: transparent;
-    border-radius: 0.625rem;
-    background-color: transparent;
-    transition: 0.3s;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 14px 24px;
+  border: 1px solid;
+  border-color: transparent;
+  border-radius: 0.625rem;
+  background-color: transparent;
+  transition: 0.3s;
 }
 
 .menu__link:hover {
-    cursor: pointer;
-    border-color: #262626;
-    background-color: #141414;
+  cursor: pointer;
+  border-color: #262626;
+  background-color: #141414;
 }
 
 .menu__link.active {
-    border-color: #262626;
-    background-color: #141414;
+  border-color: #262626;
+  background-color: #141414;
 }
-
-
 
 /* export const MenuItem = styled.li(
     css({
@@ -54,4 +51,3 @@ export const MenuLink = styled(Link)(
         fontSize: '18px',
     })
 ) */
-

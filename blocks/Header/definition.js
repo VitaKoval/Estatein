@@ -16,7 +16,6 @@ const pages = [
   {
     href: '/meals/share',
     label: 'Services',
-   
   },
 ]
 

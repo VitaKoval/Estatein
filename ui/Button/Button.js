@@ -16,10 +16,12 @@ import styles from './Button.module.css'
  * @returns {JSX.Element} Button element
  */
 
-function Button({children, onClick, size='large', variant='dark'}) {
+function Button({ children, onClick, size = 'large', variant = 'dark' }) {
   return (
-    <button className={`${styles.button} ${styles[size]} ${styles[variant]}`}
-      onClick={onClick}>
+    <button
+      className={`${styles.button} ${styles[size]} ${styles[variant]}`}
+      onClick={onClick}
+    >
       {children}
     </button>
   )

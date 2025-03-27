@@ -1,4 +1,4 @@
-import styles from "./SectionContainer.module.css";
+import styles from './SectionContainer.module.css'
 
 /**
  * Reusable Styled component for section's container
@@ -15,12 +15,8 @@ import styles from "./SectionContainer.module.css";
  * @param {'default' | 'large'} [props.variant='default'] - Container width
  */
 
-function SectionContainer({children}) {
-  return (
-    <div className={styles.container}>
-      {children}
-    </div>
-  )
+function SectionContainer({ children }) {
+  return <div className={styles.container}>{children}</div>
 }
 
 export default SectionContainer

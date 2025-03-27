@@ -1,11 +1,9 @@
 .card {
-    display: flex;
-    flex-direction: column;
-    flex-grow: 1;
-    gap: 2px;
-    padding: 16px 24px;
-    border: 1px solid #262626;
-    border-radius: 12px;
+  display: flex;
+  flex-direction: column;
+  flex-grow: 1;
+  gap: 2px;
+  padding: 16px 24px;
+  border: 1px solid #262626;
+  border-radius: 12px;
 }
-
-

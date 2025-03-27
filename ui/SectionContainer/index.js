@@ -1,1 +1,1 @@
-export {default} from './SectionContainer'
+export { default } from './SectionContainer'

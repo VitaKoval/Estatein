@@ -1,6 +1,6 @@
 :root {
   --background: #141414;
-  --foreground: #FFFFFF;
+  --foreground: #ffffff;
 }
 
 html,
@@ -63,7 +63,7 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  color: #FFFFFF;
+  color: #ffffff;
   line-height: 1.2;
 }
 

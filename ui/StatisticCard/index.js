@@ -1,1 +1,1 @@
-export {default} from './StatisticCard'
+export { default } from './StatisticCard'
