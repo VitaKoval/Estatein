@@ -63,7 +63,8 @@ h4,
 h5,
 h6 {
   font-weight: 700;
-  /* color: var(--blue-0); */
+  color: #FFFFFF;
+  line-height: 1.2;
 }
 
 .uppercase {
@@ -72,4 +73,18 @@ h6 {
 
 .bold {
   font-weight: 700;
+}
+
+h1 {
+  font-size: 3.75rem; /* 60px */
+}
+
+h4 {
+  font-size: 2.5rem; /* 40px */
+}
+
+p {
+  font-size: 1.125rem; /* 18px */
+  color: #999999;
+  line-height: 1.5;
 }

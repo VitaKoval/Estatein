@@ -1,31 +1,11 @@
 
-
 import Image from 'next/image'
+import Link from 'next/link'
+import { HeaderNavMenu } from '@/components'
+import { Button, SectionContainer } from '@/ui'
 import styles from './Header.module.css'
 import logo from '../../public/logo.png'
-import { Button, SectionContainer } from '@/ui'
-import { HeaderNavMenu } from '@/components'
-import Link from 'next/link'
-
-const pages = [
-  {
-    href: '/',
-    label: 'Home',
-  },
-  {
-    href: '/meals',
-    label: 'About Us',
-  },
-  {
-    href: '/community',
-    label: 'Properties',
-  },
-  {
-    href: '/meals/share',
-    label: 'Services',
-   
-  },
-]
+import pages from './definition'
 
 function Header() {
   return (
