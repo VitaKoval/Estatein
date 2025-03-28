@@ -52,6 +52,19 @@
   background: linear-gradient(238.21deg, #2a213f 12%, #191919 67%);
 }
 
+.intro__image::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 50vw;
+  height: 100%;
+  background-image: url(../../assets/abstract_lines.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  z-index: 1;
+}
+
 .intro__image img {
   position: absolute;
   bottom: 0;
@@ -60,4 +73,5 @@
   width: 100%;
   height: 100%;
   object-fit: cover;
+  z-index: 2;
 }

@@ -12,7 +12,7 @@ import styles from './SectionContainer.module.css'
  *
  * @param {Object} props
  * @param {React.ReactNode} props.children - Section content
- * @param {'default' | 'large'} [props.variant='default'] - Container width
+ * @param {'primary' | 'large'} [props.variant='primary'] - Container width
  */
 
 function SectionContainer({ children }) {
