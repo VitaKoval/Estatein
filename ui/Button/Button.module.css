@@ -7,6 +7,9 @@
   border: 1px solid;
   border-radius: 10px;
   transition: 0.3s;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 /* size */
@@ -35,6 +38,15 @@
 }
 
 .button.dark:hover {
+  background-color: #262626;
+}
+
+.button.alt-dark {
+  border-color: #262626;
+  background-color: #1a1a1a;
+}
+
+.button.alt-dark:hover {
   background-color: #262626;
 }
 

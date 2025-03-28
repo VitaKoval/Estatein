@@ -12,7 +12,7 @@ import styles from './Button.module.css'
  * @param {React.ReactNode} props.children - Button content
  * @param {() => void} [props.onClick] - Function triggered on click
  * @param {'small' | 'medium' | 'large'} [props.size='large'] - Button size
- * @param {'dark' | 'accent'} [props.variant='dark'] - Button style
+ * @param {'dark' | 'alt-dark' | 'accent'} [props.variant='dark'] - Button style
  * @returns {JSX.Element} Button element
  */
 

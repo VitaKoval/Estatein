@@ -1,5 +1,5 @@
 import { StatisticGeneral } from '@/components'
-import { Button, SectionContainer, StatisticCard } from '@/ui'
+import { Button, Container } from '@/ui'
 import Image from 'next/image'
 import introImage from '../../assets/intro_home.png'
 import styles from './Intro.module.css'
@@ -7,7 +7,7 @@ import styles from './Intro.module.css'
 function Intro() {
   return (
     <section className={styles.section__intro}>
-      <SectionContainer>
+      <Container>
         <div className={styles.intro__wrap}>
           <div className={styles.intro__content}>
             <div className={styles.content__text}>
@@ -27,7 +27,7 @@ function Intro() {
             <Image src={introImage} alt="Modern glass building" />
           </div>
         </div>
-      </SectionContainer>
+      </Container>
     </section>
   )
 }

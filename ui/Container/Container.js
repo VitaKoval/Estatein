@@ -1,4 +1,4 @@
-import styles from './SectionContainer.module.css'
+import styles from './Container.module.css'
 
 /**
  * Reusable Styled component for section's container
@@ -6,17 +6,17 @@ import styles from './SectionContainer.module.css'
  * @component
  * @example
  * // Usage example with different props
- * <SectionContainer variant="large">
+ * <Container variant="large">
  *    Section Content
- * </SectionContainer>
+ * </Container>
  *
  * @param {Object} props
  * @param {React.ReactNode} props.children - Section content
  * @param {'primary' | 'large'} [props.variant='primary'] - Container width
  */
 
-function SectionContainer({ children }) {
+function Container({ children }) {
   return <div className={styles.container}>{children}</div>
 }
 
-export default SectionContainer
+export default Container
