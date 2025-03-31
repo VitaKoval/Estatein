@@ -1,4 +1,4 @@
-import { Header } from '@/blocks'
+import { Footer, Header } from '@/blocks'
 import { Urbanist } from 'next/font/google'
 import './globals.css'
 
@@ -19,6 +19,7 @@ export default function RootLayout({ children }) {
       <body className={`${urbanist.variable}`}>
         <Header />
         {children}
+        <Footer />
       </body>
     </html>
   )

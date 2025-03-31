@@ -1,5 +1,7 @@
 .action {
   padding: 6.25rem 0;
+
+  border: 1px solid green;
 }
 
 .action__wrap {
