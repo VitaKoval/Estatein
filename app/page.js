@@ -1,5 +1,12 @@
 import styles from './page.module.css'
-import { FeaturedProperties, Intro, NavigationPanel } from '@/blocks'
+import {
+  CallToAction,
+  FAQ,
+  FeaturedProperties,
+  Intro,
+  NavigationPanel,
+  Testimonials,
+} from '@/blocks'
 
 export default function Home() {
   return (
@@ -7,6 +14,9 @@ export default function Home() {
       <Intro />
       <NavigationPanel />
       <FeaturedProperties />
+      <Testimonials />
+      <FAQ />
+      <CallToAction />
     </main>
   )
 }

@@ -1,0 +1,24 @@
+.action {
+  padding: 6.25rem 0;
+}
+
+.action__wrap {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  gap: 2rem;
+}
+
+.action__content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.875rem;
+  flex: 1;
+}
+
+.action__btn {
+  display: flex;
+  justify-content: end;
+  max-width: 396px;
+  flex: 1;
+}
