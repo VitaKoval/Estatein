@@ -3,7 +3,7 @@ import styles from './Footer.module.css'
 
 function NavigationList({ title, navigation }) {
   return (
-    <>
+    <div className={styles.navigation__wrap}>
       <h5 key={title} className={styles.navigation__title}>
         {title}
       </h5>
@@ -14,7 +14,7 @@ function NavigationList({ title, navigation }) {
           </Link>
         ))}
       </div>
-    </>
+    </div>
   )
 }
 

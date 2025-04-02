@@ -47,6 +47,37 @@
 }
 
 .footer__bottom {
+  padding: 1.875rem 0;
+  background-color: #1a1a1a;
+}
+
+.footer__policy {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 1rem;
+}
+
+.policy__terms {
+  display: flex;
+  align-items: center;
+  gap: 2.375rem;
+}
+
+.policy__social {
+  display: flex;
+  gap: 10px;
+}
+
+.social__item {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 52px;
+  height: 52px;
+  padding: 14px;
+  background-color: #141414;
+  border-radius: 50%;
 }
 
 /* subscribe__form */
