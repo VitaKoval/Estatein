@@ -58,3 +58,14 @@
 .button.accent:hover {
   background-color: transparent;
 }
+
+.button.transparent {
+  border-color: transparent;
+  background-color: transparent;
+}
+
+/* With Icon */
+.button .button__icon {
+  width: 30px;
+  height: 30px;
+}
