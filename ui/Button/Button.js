@@ -32,7 +32,7 @@ function Button({
       type={type && type}
     >
       {children}
-      {Icon && <Icon className={styles.button__icon} />}
+      {Icon && <Icon className={styles.button__icon} color="#ffffff" />}
     </button>
   )
 }

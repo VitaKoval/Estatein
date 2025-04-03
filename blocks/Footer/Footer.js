@@ -45,7 +45,7 @@ function Footer() {
         <Container>
           <div className={styles.footer__policy}>
             <div className={styles.policy__terms}>
-              <p>@2023 Estatein. All Rights Reserved.</p>
+              <p>@2025 Estatein. All Rights Reserved.</p>
               <Link href="#">Terms & Conditions</Link>
             </div>
             <div className={styles.policy__social}>
